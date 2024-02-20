@@ -135,7 +135,7 @@ public class oders_page_distr extends JFrame {
         topBarPanel.add(btnBack);
         btnBack.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                user_inyange sales_page_ = new user_inyange();
+                userHome sales_page_ = new userHome();
                 sales_page_.frame.setVisible(true);
                 frame.dispose();
             }
