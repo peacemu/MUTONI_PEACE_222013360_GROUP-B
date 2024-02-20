@@ -43,7 +43,7 @@ public class clients extends JFrame {
         headerPanel.add(btnBack);
         btnBack.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                user_inyange ppp = new user_inyange();
+                userHome ppp = new userHome();
                 ppp.frame.setVisible(true);
                 frame.dispose();
             }
